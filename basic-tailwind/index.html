@@ -6,11 +6,11 @@
     <title>Document</title>
     <link href="./src/output.css" rel="stylesheet" />
   </head>
-  <body class="dark dark:bg-slate-800 dark:text-slate-100">
+  <body class="min-h-screen dark dark:bg-slate-800 dark:text-slate-100">
     <div>
       <div>
         <button
-          class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+          class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100 hover:scale-105"
           >Simpan</button
         >
 
@@ -50,6 +50,44 @@
           </form></div
         >
       </div>
+      <div class="mb-96"></div>
+      <div class="flex items-center justify-center mx-auto flex-col">
+        <!-- origin-top-left -->
+        <div
+          class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg text-white hover:scale-125 hover:rotate-45 hover:translate-x-16 transition hover:bg-pink-500">
+        </div>
+
+        <!-- Bungkus dengan grouping agar tidak bergerak -->
+        <div class="w-40 h-40 bg-pink-500 mx-auto mt-20 group">
+          <div
+            class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-150 origin-top-left transition duration-1000"></div>
+        </div>
+
+        <div
+          class="mt-20 w-40 h-40 bg-pink-500 mx-auto rounded-full shadow-lg text-white animate-bounce">
+        </div>
+      </div>
+      <hr class="my-20 border-t-4" />
+      <div class="container mx-auto"
+        ><div
+          class="border rounded-lg shadow-lg p-10 border-slate-200 relative">
+          <div
+            class="w-10 h-10 bg-pink-200 rounded-full flex absolute -top-5 left-1/2 -translate-x-1/2 cursor-pointer"
+            ><span class="text m-auto">❌</span></div
+          >
+          <!-- -right-5 untuk pojok kanan atas -->
+          <p
+            >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            aperiam sequi, repellat natus, fugiat enim, temporibus dolorum odit
+            at veniam alias nesciunt officia reprehenderit! Atque minima odio
+            qui dolores, excepturi sunt, dolore maxime laboriosam explicabo,
+            quaerat corrupti inventore? Illum, ipsa. Sunt saepe dolorem minima
+            debitis totam veritatis provident iusto nemo.</p
+          ></div
+        ></div
+      >
+
+      <div class="mb-96"></div>
     </div>
   </body>
 </html>
