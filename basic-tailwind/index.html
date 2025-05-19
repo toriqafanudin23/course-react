@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./src/output.css" rel="stylesheet" />
+  </head>
+  <body class="dark dark:bg-slate-800 dark:text-slate-100">
+    <div>
+      <div>
+        <button
+          class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100"
+          >Simpan</button
+        >
+
+        <div
+          class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group dark:hover:bg-slate-300">
+          <h5
+            class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800"
+            >My Card</h5
+          >
+          <p
+            class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-800 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            deserunt molestias tempore dolores provident quae culpa quod
+            officiis voluptatum, cumque neque. Inventore, rem saepe! Temporibus
+            eveniet similique hic sunt veniam.</p
+          >
+        </div>
+
+        <div
+          class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md p-5">
+          <form action="">
+            <label for="email">
+              <span
+                class="block font-semibold mb-1.5 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5"
+                >Email</span
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Masukan email.."
+                class="px-3 py-2 border shadow rounded w-full block text-sm border-slate-200 placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:border-pink-700 invalid:focus:ring-pink-700 peer" />
+              <span
+                class="text-sm m-1 text-pink-700 invisible peer-invalid:visible"
+                >Email tidak valid</span
+              >
+            </label>
+          </form></div
+        >
+      </div>
+    </div>
+  </body>
+</html>
